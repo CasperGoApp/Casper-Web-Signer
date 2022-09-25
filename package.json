@@ -1,0 +1,29 @@
+{
+  "name": "casper-web-signer",
+  "version": "1.0.0",
+  "description": "Casper Web Siger",
+  "main": "src/index.js",
+  "scripts": {
+    "web": " npm i ; browserify web/index.js --s casper > html/js/casper.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CasperGoApp/Casper-Web-Signer.git"
+  },
+  "author": "LetsGo LLC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CasperGoApp/Casper-Web-Signer/issues"
+  },
+  "homepage": "https://github.com/CasperGoApp/Casper-Web-Signer#readme",
+  "dependencies": {
+    "bip39": "^3.0.4",
+    "casper-js-sdk": "^2.10.0",
+    "eslint": "^8.24.0",
+    "prettier": "^2.7.1"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "semi": false
+  }
+}
